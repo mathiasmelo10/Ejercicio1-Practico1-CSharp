@@ -1,1 +1,1 @@
-Programa Utilizado Visual Studio 2017
+IDE Utilizado Visual Studio 2017
