@@ -41,7 +41,7 @@ namespace Ejercicio1
             } 
         }
 
-        public void EsMayor()
+        public void EsMayor(double primerValor,double segundoValor)
         {
             if (primerValor > segundoValor)
             {
@@ -53,7 +53,7 @@ namespace Ejercicio1
             }
         }
 
-        public void EsIgual()
+        public void EsIgual(double primerValor, double segundoValor)
         {
             if (primerValor == segundoValor)
             {
@@ -63,7 +63,7 @@ namespace Ejercicio1
         }
 
 
-        public void EsMenor()
+        public void EsMenor(double primerValor, double segundoValor)
         {
             if (primerValor < segundoValor)
             {
@@ -79,9 +79,9 @@ namespace Ejercicio1
         {
             EnterosADouble();
             EsVacio();
-            EsMayor();
-            EsIgual();
-            EsMenor();
+            EsMayor(primerValor,segundoValor);
+            EsIgual(primerValor,segundoValor);
+            EsMenor(primerValor,segundoValor);
         }
     }
 }
