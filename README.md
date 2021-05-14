@@ -1,5 +1,4 @@
-# practicas-CSharp
-Practico 1 C#
+# Practico1-CSharp
 Ejercicio 1
 Crear un programa con 2 TextBox, y un botón.
 Al presionar el botón, se debe indicar mediante un MsgBox lo siguiente:
